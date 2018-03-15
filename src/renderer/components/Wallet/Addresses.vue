@@ -20,7 +20,7 @@
         <el-col :span="4" ><a class="button" id="generate-address" v-on:click="addTAddress()">New address</a></el-col>
       </el-row>   
       <el-table :data="tAddresses" height="200" style="width: 100%" empty-text="None">
-        <el-table-column prop="balance" label="Amount" width="120" class-name="balance"> </el-table-column>
+        <el-table-column prop="balance" label="Amount" width="120"> </el-table-column>
         <el-table-column prop="address" label="Address" width="*" class-name="address" > </el-table-column>      
       </el-table>       
 
